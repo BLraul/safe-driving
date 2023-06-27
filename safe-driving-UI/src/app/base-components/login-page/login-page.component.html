@@ -1,0 +1,22 @@
+<div class="body">
+  <form class="loginForm" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    <div class="imgcontainer">
+      <img src="assets/images/autosof_logo.png" alt="Avatar" class="avatar">
+    </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input class="inputTxt" type="text" placeholder="Enter Username" name="userName" id="useName" required ngModel>
+      <label for="psw"><b>Password</b></label>
+      <input class="inputTxt" type="password" placeholder="Enter Password" name="userPassword" required
+        id="userPassword" required ngModel>
+      <div class="actionBtn">
+        <button class="submitBtn" type="submit">Login</button>
+      </div>
+      <label class="rememberMe">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+    </div>
+  </form>
+</div>

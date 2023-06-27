@@ -1,0 +1,374 @@
+[
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2844",
+        "issueType": "Story",
+        "issueSummary": "Initial application setup for safer-next-ui [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2860",
+        "issueType": "Story",
+        "issueSummary": "Initial application setup for safer-next-ui [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2907",
+        "issueType": "Story",
+        "issueSummary": "SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3006",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [1] BE (2): updates"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3018",
+        "issueType": "Story",
+        "issueSummary": "Implement infrastructure for CN INT [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3020",
+        "issueType": "Story",
+        "issueSummary": "Implement infrastructure for CN INT [3]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-1588",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [3] Business logic and data mapping [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2885",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement Containers [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2887",
+        "issueType": "Story",
+        "issueSummary": "Map: Implement Multiselection for the pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2890",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [2] UI - [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2892",
+        "issueType": "Story",
+        "issueSummary": "Implement Preselection View"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2933",
+        "issueType": "Story",
+        "issueSummary": "Implement Pin Bubble"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2949",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement Containers [FE] [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2950",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement Containers [FE] [3]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2951",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement Containers [FE] [4]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2960",
+        "issueType": "Story",
+        "issueSummary": "Show \"My Roles\" in main bar "
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2966",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [1] BE"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2979",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [2] UI - [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2980",
+        "issueType": "Story",
+        "issueSummary": "Crash Details View - [3] Business logic and data mapping [FE] [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2845",
+        "issueType": "Story",
+        "issueSummary": "Implement REST API [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2866",
+        "issueType": "Story",
+        "issueSummary": "Implement authentication and authorization - FE [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2883",
+        "issueType": "Story",
+        "issueSummary": "Implement Landing Page"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2884",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement map view"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2889",
+        "issueType": "Story",
+        "issueSummary": "Implement Base UI Components "
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2894",
+        "issueType": "Story",
+        "issueSummary": "Implement Map Pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2897",
+        "issueType": "Story",
+        "issueSummary": "Implement authentication and authorization - FE [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2899",
+        "issueType": "Story",
+        "issueSummary": "Implement REST API [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2904",
+        "issueType": "Story",
+        "issueSummary": "Implement authentication and authorization - FE [3]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2935",
+        "issueType": "Story",
+        "issueSummary": "Redirection from case selection tile to map view"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2936",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement status change for pins dragged to container [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2952",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement status change for pins dragged to container [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2953",
+        "issueType": "Story",
+        "issueSummary": "Map View: Implement status change for pins dragged to container [3]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2956",
+        "issueType": "Test",
+        "issueSummary": "Test Implement Landing Page"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2957",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Implement Landing Page"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2958",
+        "issueType": "Test",
+        "issueSummary": "Test Implement Base UI Components "
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2959",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Implement Base UI Components "
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2968",
+        "issueType": "Story",
+        "issueSummary": "Implement auth with OIDC for RightNow"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2982",
+        "issueType": "Test",
+        "issueSummary": "Test Map View: Implement map view"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2983",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Map View: Implement map view"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2984",
+        "issueType": "Test",
+        "issueSummary": "Test Map View: Implement Containers [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2985",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Map View: Implement Containers [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2986",
+        "issueType": "Test",
+        "issueSummary": "Test Implement Map Pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2987",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Implement Map Pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2988",
+        "issueType": "Test",
+        "issueSummary": "Test Map View: Implement status change for pins dragged to container [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2989",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Map View: Implement status change for pins dragged to container [2]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-2999",
+        "issueType": "Test",
+        "issueSummary": "Test Crash Details View - [2] UI - [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3000",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Crash Details View - [2] UI - [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3001",
+        "issueType": "Test",
+        "issueSummary": "Test Implement Preselection View"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3002",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Implement Preselection View"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3003",
+        "issueType": "Test",
+        "issueSummary": "Test Map: Implement Multiselection for the pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3004",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Map: Implement Multiselection for the pins"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3010",
+        "issueType": "Story",
+        "issueSummary": "Crash details improvements"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3013",
+        "issueType": "Test",
+        "issueSummary": "Test Crash Details View - [3] Business logic and data mapping [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3014",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Crash Details View - [3] Business logic and data mapping [FE] [1]"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3015",
+        "issueType": "Test",
+        "issueSummary": "Test Implement Pin Bubble"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3016",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test Implement Pin Bubble"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3028",
+        "issueType": "Test",
+        "issueSummary": "Test SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3032",
+        "issueType": "Test Execution",
+        "issueSummary": "execution for Test SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3033",
+        "issueType": "Test Execution",
+        "issueSummary": "Ad-hoc execution for Test SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "10.0.0",
+        "issueId": "SAFER-3034",
+        "issueType": "Test Execution",
+        "issueSummary": "WEB execution for Test SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "11.0.0",
+        "issueId": "SAFER-3034",
+        "issueType": "Test Execution",
+        "issueSummary": "WEB execution for Test SAFER 10.0.0 Release"
+    },
+    {
+        "releaseVersion": "11.0.0",
+        "issueId": "SAFER-3089",
+        "issueType": "Test Execution2",
+        "issueSummary": "WEB execution for Test SAFER 10.0.0 Release"
+    }
+]

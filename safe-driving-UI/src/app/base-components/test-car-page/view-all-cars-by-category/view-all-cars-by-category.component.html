@@ -1,0 +1,31 @@
+  <div class="header">
+    <h1 class="header-title">
+        Showing Category Result</h1>
+    <p class="header-subtitle">
+        Life takes priority</p>
+</div>
+<!-- SECTION -->
+<div class="sidenav-content" id="main-container" aria-hidden="true">
+    <mat-card class="card" *ngFor=" let productList of productsListByCategoryId$ | async " >
+        <mat-card-header class="titleCar">
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title > 
+                {{productList.productName}}
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{productList.price | currency}}
+            </mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src={{productList.prodImg}} alt="Photo of a Car">
+        <mat-card-content>
+            <p class="description">
+                {{productList.description}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions class="mat-card-btn">
+            <button mat-button type="button" class="select-btn" (click)="navigateToTheProduct(productList.id)">
+                Select the car<mat-icon> directions_car</mat-icon>
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,12 @@
+<a [routerLink]="['products']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact:true}" class="menu-item" style="background-color:rgb(221, 229, 235);"><span>View All Cars</span></a>
+<a [routerLink]="['create-product']" [routerLinkActive]="'active'" class="menu-item" style="background-color:rgb(221, 229, 235);"><span>Create New Car</span></a>
+<div class="list-group" *ngFor="let category of productList$ | async ">
+<label class="container"  routerLink="category/{{category.id}}" [routerLinkActive]="'active'">
+    {{category.categoryName}}
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+</div>
+
+
+

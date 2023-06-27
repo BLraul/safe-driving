@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "categoryName": "BMW"
+    },
+    {
+      "id": 2,
+      "categoryName": "Opel"
+    },
+    {
+      "id": 3,
+      "categoryName": "Hyundai"
+    },
+    {
+      "id": 4,
+      "categoryName": "Audi"
+    },
+    {
+      "id": 5,
+      "categoryName": "Volkswagen"
+    },
+    {
+      "id": 6,
+      "categoryName": "Dacia"
+    }
+  ]

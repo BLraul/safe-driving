@@ -1,0 +1,38 @@
+<p>
+    <mat-toolbar class="aboutToolbar">
+    <mat-icon>apps</mat-icon>
+    <span>{{nameAPP | uppercase}}</span>
+    </mat-toolbar>
+</p>
+
+<div mat-dialog-content class="form-programing-test">
+
+        <h1 >Release status</h1>
+        <div class="flexData" *ngIf="feBuildVersion">
+            <h3 class="releaseVersion">Frontend Version:</h3>
+            <span
+              >{{ feBuildVersion.version }}
+            </span>
+            <h3 class="releaseVersion">Release Date:</h3>
+            <span
+           >{{ feBuildVersion.buildDate }}
+            </span>
+        </div>
+
+        <div class="flexData" *ngIf="beBuildVersion">
+            <h3 class="releaseVersion">Backend Version:</h3>
+            <span
+            >{{ beBuildVersion.version }}
+            </span>
+            <h3 class="releaseVersion">Release Date:</h3>
+            <span
+              >{{ beBuildVersion.buildDate }} 
+            </span>
+        </div>
+   
+    <div mat-dialog-actions class="dialog-action-btn">
+        <button mat-flat-button class="popUp-button-close" mat-dialog-close >Close</button>
+    </div>
+</div>
+
+

@@ -1,0 +1,10 @@
+<app-test-car-page-header [changeStateToTheSidebar]="matDrawer">
+</app-test-car-page-header>
+<mat-drawer-container class="rental-container">
+  <mat-drawer #drawer  (keyup)="0" mode="side" opened class="rental-sidenav">
+    <app-test-car-page-sidebar></app-test-car-page-sidebar>
+  </mat-drawer>
+  <mat-drawer-content >  
+    <router-outlet></router-outlet> 
+  </mat-drawer-content>
+</mat-drawer-container>

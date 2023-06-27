@@ -1,0 +1,138 @@
+<div class="form-programing-test">
+    <mat-accordion *ngIf=" selectedProduct$ | async as productDetail " class="example-headers-align">
+            <form class="example-form" #programingForm="ngForm" (ngSubmit)="addTestPrograming(programingForm)">
+                <mat-expansion-panel [expanded]="step === 0" (opened)="setStep(0)" hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Personal data
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            Type your name and age
+                            <mat-icon>account_circle</mat-icon>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+                    <mat-form-field appearance="fill" class="example-full-width" class="invisible example-full-width">
+                        <mat-label>carId</mat-label>
+                        <input matInput name="carId" ngModel="{{productDetail.id}}">
+                      </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>First name</mat-label>
+                        <input matInput name="firstName" ngModel>
+                    </mat-form-field>
+    
+                    <mat-form-field appearance="fill">
+                        <mat-label>Last name</mat-label>
+                        <input matInput name="lastName" ngModel>
+                    </mat-form-field>
+    
+                    <mat-form-field appearance="fill">
+                        <mat-label>Age</mat-label>
+                        <input matInput type="number" min="18" name="age" ngModel>
+                    </mat-form-field>
+                    <mat-action-row>
+                        <button type="button" mat-button class="next-btn" (click)="nextStep()">Next</button>
+                    </mat-action-row>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel [expanded]="step === 1" (opened)="setStep(1)" hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            City
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            Type the city name
+                            <mat-icon>map</mat-icon>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+    
+                    <mat-form-field appearance="fill">
+                        <mat-label>City</mat-label>
+                        <mat-select name="city" ngModel>
+                            <mat-option value="Arad">Arad</mat-option>
+                            <mat-option value="Bucuresti">Bucuresti</mat-option>
+                            <mat-option value="Cluj">Cluj</mat-option>
+                            <mat-option value="Oradea">Oradea</mat-option>
+                            <mat-option value="Timisoara">Timisoara</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+    
+                    <mat-action-row>
+                        <button type="button" mat-button class="previous-btn" (click)="prevStep()">Previous</button>
+                        <button type="button" mat-button class="next-btn" (click)="nextStep()">Next</button>
+                    </mat-action-row>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel [expanded]="step === 2" (opened)="setStep(2)" hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Phone for contact
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            Inform the phone you want to be contacted
+                            <mat-icon matSuffix>phone</mat-icon>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+    
+                    <mat-form-field appearance="fill">
+                        <mat-label>Phone</mat-label>
+                        <input type="tel" matInput name="phone" ngModel>
+                    </mat-form-field>
+    
+                    <mat-action-row>
+                        <button type="button" mat-button class="previous-btn" (click)="prevStep()">Previous</button>
+                        <button type="button" mat-button class="next-btn" (click)="nextStep()">Next</button>
+                    </mat-action-row>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel [expanded]="step === 3" (opened)="setStep(3)" hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Email for contact
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            Inform the email you want to be contacted
+                            <mat-icon> email</mat-icon>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+    
+                    <mat-form-field appearance="fill">
+                        <mat-label>Enter your email</mat-label>
+                        <input matInput placeholder="pat@example.com" name="email" ngModel required >
+                        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                    </mat-form-field>
+    
+                    <mat-action-row>
+                        <button type="button" mat-button class="previous-btn" (click)="prevStep()">Previous</button>
+                        <button type="button" mat-button class="next-btn" (click)="nextStep()">Next</button>
+                    </mat-action-row>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel [expanded]="step === 4" (opened)="setStep(4)" hideToggle>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Day of the test
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            Inform the date you wish to test
+                            <mat-icon>date_range</mat-icon>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+    
+
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Choose a date</mat-label>
+                        <input matInput [matDatepickerFilter]="myFilter" [matDatepicker]="picker"  name="data" ngModel [min]="minDate">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field>
+                    
+    
+                    <mat-action-row>
+                        <button type="button" mat-button class="previous-btn" (click)="prevStep()">Previous</button>
+                        <button type="submit" mat-button class="next-btn" [disabled]="programingForm.invalid" >Send</button>
+                    </mat-action-row>
+                </mat-expansion-panel>
+            </form>
+    </mat-accordion>
+</div>

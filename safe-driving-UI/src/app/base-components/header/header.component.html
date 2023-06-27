@@ -1,0 +1,37 @@
+<div class="logo">
+    <img src="assets/images/autosof_logo.png" alt="autosof_logo" />
+</div>
+    <button mat-raised-button class="header-button-left" (click)="goToHome()">
+        <mat-icon>home</mat-icon>
+        <span class="button-text">SAFE DRIVING</span>
+    </button>
+<div class="spacer"></div> 
+<div>
+    <button mat-icon-button aria-label="Button with fullscreen icon" class="header-button-right" *ngIf="!isFullScreen"
+        (click)="openFullScreen()">
+        <mat-icon>fullscreen</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Button with Fullscreen Exit icon" class="header-button-right" *ngIf="isFullScreen"
+    (click)="closeFullScreen()">
+        <mat-icon>fullscreen_exit</mat-icon>
+    </button>
+</div>
+<div>
+    <button mat-icon-button aria-label="Button with add user icon" class="header-button-right"
+    (click)="openDialog('addUser')">
+    <mat-icon>group_add</mat-icon>
+    </button>
+</div>
+<div class="dropdown" (mouseleave)="toggleMenu(false)">
+    <button mat-icon-button color="accent" aria-label="Button with help icon" class="header-button-right"
+    (mouseover)="toggleMenu(true)">
+    <mat-icon>help_outline</mat-icon>
+    </button>
+    <div class="dropdown-menu" *ngIf="isMenuOpened">
+        <div class="menu-item" (click)="openDialog('about')">
+            <mat-icon>menu_book</mat-icon>
+            <span class="text">About SafeDriving App</span> 
+        </div>
+    </div>
+</div>
+<app-user-profile *ngIf="isLoggedIn()"></app-user-profile> 

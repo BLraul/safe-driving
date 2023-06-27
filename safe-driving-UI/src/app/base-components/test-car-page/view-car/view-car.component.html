@@ -1,0 +1,155 @@
+<!-- Header -->
+<div class="header" aria-hidden="true" *ngIf=" carDetailById$ | async as carDetail ">
+        <mat-card-header>
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title> 
+                <a routerLink="product/{{carDetail.id}}"></a>
+                <h1 class="header-title">
+                    {{carDetail.productName}}</h1>  
+            </mat-card-title>
+            <mat-card-subtitle>
+                <p class="header-subtitle">
+                    {{carDetail.price | currency}}</p>
+            </mat-card-subtitle>
+        </mat-card-header>
+</div>
+
+<!-- SECTION -->
+<section class="split" *ngIf=" carDetailById$ | async as carDetail ">
+    <div class="screen">
+        <div class="card" >
+            <div class="imgBx">      
+                    <img mat-card-image src={{carDetail.prodImg}} alt="Photo of a Car">
+            </div>
+            <mat-card-actions class="mat-card-btn">
+                <button mat-button class="edit-btn" (click)="openDialog(carDetail, 'edit')"> 
+                    <mat-icon matSuffix>mode_edit</mat-icon>
+                </button>
+                <button mat-button type="button" class="delete-btn" (click)="openDialog(carDetail, 'delete')">
+                  <mat-icon>delete_outline</mat-icon>
+                </button>
+            </mat-card-actions>
+            <mat-card-actions class="container-btn-programing">
+              <button mat-button type="button" class="programing-btn" (click)="openDialog(carDetail, 'programing')" *ngIf="(carDetail.programings?.length); else withoutProgramings" >
+                <mat-icon matPrefix>mode_edit</mat-icon>Schedule another test
+              </button>           
+              <ng-template #withoutProgramings>
+                <button mat-button type="button" class="programing-btn" (click)="openDialog(carDetail, 'programing')"  >
+                  <mat-icon matPrefix>mode_edit</mat-icon>There are no appointments.Plan one
+                </button>       
+                </ng-template>   
+                    
+            </mat-card-actions>      
+        </div>
+    </div>
+    <div class="screen">
+        <div class="card">
+                <mat-card-header>
+                    <div mat-card-avatar class="card-header-image"></div>
+                    <mat-card-title> 
+                        <a routerLink="product/{{carDetail.id}}"></a>
+                        {{carDetail.productName}}
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        {{carDetail.price | currency}}
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content class="card-content">
+                    <mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z3" >
+                        <mat-tab class="mat-tab" label="Performanta">
+                                <h3 class="title-mat-tab">Progres si eficienta.</h3>
+                            <mat-list>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Culoare</span><br>
+                                <span matListItemLine >{{carDetail.color}}</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Eficienta</span><br>
+                                <span matListItemLine >{{carDetail.efficiency}} l/100km</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Performanta</span>
+                                <span matListItemLine>{{carDetail.performance}} cp</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Transmisie</span>
+                                <span>{{carDetail.transmission}}</span><br/>
+                                <span >{{carDetail.tnr}} trepte de viteza</span>
+                              </mat-list-item>
+                            </mat-list>
+
+                        </mat-tab>
+                        <mat-tab label="Confort"> 
+                                <h3 class="title-mat-tab">Mai mult spatiu.</h3>
+                            <mat-list>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Portbagaj</span><br>
+                                <span matListItemLine >{{carDetail.trunkVol}} litrii</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Spatiu suplimentar</span>
+                                <span matListItemLine>{{carDetail.additionalTrunkSpace}}</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Sistem audio</span>
+                                <span>{{carDetail.audioSist}}</span>
+                              </mat-list-item>
+                            </mat-list>
+
+                        </mat-tab>
+                        <mat-tab label="Conectivitate">
+                                <h3 class="title-mat-tab">Tehnologii avansate.</h3>
+                            <mat-list>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Incarcare wireless.</span><br>
+                                <span matListItemLine >{{carDetail.wifiCharging}} </span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Conectivitate USB.</span>
+                                <span matListItemLine>{{carDetail.usbCharging}}</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Display central.</span>
+                                <span>{{carDetail.centralDisplay}}</span>
+                              </mat-list-item>
+                            </mat-list>
+   
+                        </mat-tab>
+                        <mat-tab label="Siguranta">
+                                <h3 class="title-mat-tab">Tehnologii avansate.</h3>
+                            <mat-list>
+                                <mat-list-item lines = "3">
+                                    <span matListItemTitle >Senzori de parcare</span>
+                                    <span>{{carDetail.parkingSensors}}</span>
+                                </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Pilot automat inteligent sincronizat cu sistemul de navigatie (NSCC).</span><br>
+                                <span matListItemLine >{{carDetail.autoPilot}} </span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Sistem de asistenta pentru evitarea coliziunilor la parcarea cu spatele (PCA-R).</span>
+                                <span matListItemLine>{{carDetail.pcaR}}</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Sistem de avertizare la deplasarea autovehiculului din fata (LVDA).</span>
+                                <span>{{carDetail.lvda}}</span>
+                              </mat-list-item>
+                              <mat-list-item lines = "3">
+                                <span matListItemTitle >Pilot automat inteligent cu sistem de recunoastere a indicatoarelor rutiere de viteza (ISLA).</span>
+                                <span>{{carDetail.isla}}</span>
+                              </mat-list-item>                          
+                            </mat-list>
+
+                        </mat-tab>
+                        <mat-tab label="Description">
+                            <p class="description">{{carDetail.description}}</p>
+                        </mat-tab>
+                    </mat-tab-group>
+                </mat-card-content>
+        </div>
+    </div>
+</section>
+<ng-container
+*ngIf="carDetailById$ | async as programingList " 
+>
+<app-display-test-car-program *ngIf="(programingList.programings?.length) ;" [ELEMENT_DATA]="programingList.programings"></app-display-test-car-program>

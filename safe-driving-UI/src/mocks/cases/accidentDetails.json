@@ -1,0 +1,97 @@
+{
+    "event": {
+        "caseId": 1009066,
+        "eventId": "ECSc28e429c-3e22-4b2d-ada5-cf70f52b77b8",
+        "lat": 37.461982,
+        "lng": 126.485143,
+        "accidentDateTime": "2022-05-24 09:41:31 CEST",
+        "urgency": "SEVERE_MULTIPLE_CRASH",
+        "probabilityMais": 0.98906
+    },
+    "vehicle": {
+        "vin": "WBA5R3103MFK95591",
+        "leftHandDrive": true,
+        "modelType": "i30",
+        "modelName": "Hyundai",
+        "productionDate": null,
+        "motorcycle": false,
+        "engineType": "B46B20O1",
+        "homeCountryCode": "RO",
+        "hmiLanguage": null,
+        "customer": "Tester AutoSof",
+        "contact": "testautosof@gmail.com, 0755265214"
+    },
+    "vehicleStatus": {
+        "rolloverDetected": true,
+        "dv1x": 999,
+        "dv1y": 127,
+        "dv2x": 25,
+        "dv2y": 25,
+        "dv3x": null,
+        "dv3y": null,
+        "backupBatteryUsed": false,
+        "backupAntennaUsed": false,
+        "vehicleOrientation": "NORMAL",
+        "driverDoorOpened": false
+    },
+    "airbags": {
+        "airbagDriverFront": "fired",
+        "airbagDriverKnee": "fired",
+        "airbagDriverThorax": "fired",
+        "airbagDriverHead": "fired",
+        "airbagCenterHead": "fired",
+        "airbagFrontPassengerFront": "fired",
+        "airbagFrontPassengerKnee": "fired",
+        "airbagFrontPassengerThorax": "fired",
+        "airbagFrontPassengerHead": "fired",
+        "airbagDriverSideRear": "fired",
+        "airbagPassengerSideRear": "fired"
+    },
+    "seatbelts": {
+        "seatbeltDriver": "belted",
+        "seatbeltFrontPassenger": "belted",
+        "seatbeltRearDriverSide": "belted",
+        "seatbeltRearMiddle": "belted",
+        "seatbeltRearPassengerSide": "belted",
+        "seatbeltRear3DriverSide": "belted",
+        "seatbeltRear3PassengerSide": "belted"
+    },
+    "agentReport": {
+        "hvStatus": null,
+        "dasStatus": null,
+        "actionStatus": null,
+        "audioStatus": "OCUPANTS_CONVERSING_WITH_OPERATOR",
+        "occupants": 2,
+        "occupantChild": false,
+        "occupantsInjured": false,
+        "occupantsTrapped": false,
+        "occupantsEjected": false,
+        "fire": false,
+        "agentNotes":null ,
+        "agentChat": null
+    },
+    "trace":{
+        "pearl1Lat":37.461982,
+        "pearl1Lng":126.485143,
+        "pearl2Lat":37.661982,
+        "pearl2Lng":126.767928,
+        "pearl3Lat":37.861982,
+        "pearl3Lng":126.885143,
+        "pearl4Lat":37.961982,
+        "pearl4Lng":126.985143
+        },
+    "collisions": {
+        "collision1Front": true,
+        "collision1Rear": true,
+        "collision1Driver": true,
+        "collision1Passenger": true,
+        "collision2Front": true,
+        "collision2Rear": true,
+        "collision2Driver": true,
+        "collision2Passenger": true,
+        "collision3Front": true,
+        "collision3Rear": true,
+        "collision3Driver": true,
+        "collision3Passenger": true
+    }
+}

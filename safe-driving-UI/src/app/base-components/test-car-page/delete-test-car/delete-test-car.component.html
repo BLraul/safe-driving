@@ -1,0 +1,10 @@
+<div *ngIf=" deleteCar$ | async as deleteCar">
+   <h1 mat-dialog-title>Delete file</h1>
+   <div mat-dialog-content >
+       Are you sure you want to delete {{deleteCar.productName}}
+   </div>
+   <div mat-dialog-actions>
+     <button mat-button mat-dialog-close>No</button>
+     <button class="delete" mat-button mat-dialog-close cdkFocusInitial (click)="onDeleteCar(deleteCar)">Yes</button>
+   </div>
+</div>

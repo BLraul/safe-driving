@@ -1,0 +1,34 @@
+.form-programing-test{
+  min-height: 100% !important;
+  // overflow: hidden;
+}
+
+.example-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    max-width: 100%;
+    padding: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+  }
+  .createUserToolbar{
+    background: rgb(107, 152, 141);
+    border-radius: 5px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .dialog-action-btn{
+    padding: 20px 20px;
+  }
+
+  .create {
+    background: rgb(107, 152, 141);
+  }
+  .create:hover {
+    opacity: 0.9;
+  }

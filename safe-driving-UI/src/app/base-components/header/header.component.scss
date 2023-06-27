@@ -1,0 +1,118 @@
+:host {
+  background: #fff;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(102, 102, 102, 0.24);
+  box-sizing: border-box;
+  display: flex;
+  height: var(--safer-header-height);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  margin: 0 0 0 calc(var(--safer-header-height) / 2);
+  height: 100%;
+
+  img {
+    height: calc(var(--safer-header-height) / 2);
+  }
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid rgba(140, 142, 145, 0.1);
+  border-radius: .15rem;
+  right: 0;
+  margin-right: 2px;
+
+  hr {
+    border-radius: 0.5px;
+    margin: 0 10px;
+    color: rgba(140, 142, 145, 0.5);
+  }
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  color: rgb(75, 74, 74);
+  padding: 5px 10px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin: 7.5px;
+  font-family: var(--ds-typography-family-base);
+  font-size: var(--ds-typography-size-label);
+  font-weight: var(--ds-typography-weight-regular);
+  line-height: var(--ds-typography-line-height-label);
+
+  .text {
+    padding: 5px 5px;
+  }
+}
+
+.menu-item:hover {
+  background-color: #ddd;
+  border-radius: .10rem;
+}
+
+.header-button-left {
+  margin: 0 calc(var(--safer-header-height) / 5);
+  background-color: rgb(0, 140, 186) !important;
+  .button-text {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
+  }
+}
+
+.header-button-left:hover {
+  background: rgb(0, 100, 133);
+}
+
+.header-button-right {
+  margin: 2px calc(var(--safer-header-height) / 20);
+  border-right: 1px solid rgba(140, 142, 145, 0.1);
+  color: rgb(0, 140, 186);
+  border-radius: 10%;
+}
+
+.header-button-right:hover {
+  background: rgba(0, 100, 133, 0.091);
+  border-radius: 25% 10%;
+}
+
+.h2Title {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 10px;
+  padding: 20px 20px 3px 80px;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 20px 0 80px;
+  font-size: medium;
+  list-style-type: none;
+  font-weight: normal;
+}
+
+.text span {
+  margin-left: 10px;
+  font-size: medium;
+}

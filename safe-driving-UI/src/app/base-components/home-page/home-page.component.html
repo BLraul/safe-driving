@@ -1,0 +1,45 @@
+<section class="split">
+    <div class="screen">
+        <div class="card">
+            <div class="imgBx">
+                <ng-container>
+                    <img src="assets/images/mapMediu.png" [routerLink]="['/accident-cases']" />
+                </ng-container>
+                <ng-template #unauthorized>
+                    <div class="bmw-component-headline-text"
+                        style="padding-bottom: var(--spacing-bmw-xs); margin-left: 20%">
+                        <p>No Roles Assigned</p>
+                    </div>
+                </ng-template>
+            </div>
+            <h2>Accident Cases</h2>
+            <a href="#">Read More</a>
+            <div class="content">
+                <div class="imgBx">
+                    <img src="assets/images/mapMediu.png" [routerLink]="['/accident-cases']" />
+                </div>
+                <h2>Accident Cases</h2>
+                <p>Stop accidentelor, viata are prioritate <br><br>Introdu cu atentie accidentul, pentru solutionarea
+                    cazului cat mai rapida</p>
+            </div>
+        </div>
+    </div>
+    <div class="screen">
+        <div class="card">
+            <div class="imgBx">
+                <img src="assets/images/rent-a-car-full-mediu.jpg"
+                    [routerLink]=" ['/test-car-page'] " />
+            </div>
+            <h2>Test A Car</h2>
+            <a href="#">Read More</a>
+            <div class="content">
+                <div class="imgBx">
+                    <img src="assets/images/rent-a-car-full-mediu.jpg"
+                        [routerLink]="['/test-car-page']" />
+                </div>
+                <h2>Test A Car</h2>
+                <p>Te intrebi ce model ti se potriveste? Inscrie-te la un test drive cu un model de masina. Vezi toate noile autovehicule disponibile pentru test drive și descoperă universul AUTOSOF</p>
+            </div>
+        </div>
+    </div>
+</section>

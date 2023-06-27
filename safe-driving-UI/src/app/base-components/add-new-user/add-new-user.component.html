@@ -1,0 +1,52 @@
+        <div mat-dialog-content class="form-programing-test">
+            <p>
+                <mat-toolbar class="createUserToolbar">
+                  <span>Create new User</span>
+                </mat-toolbar>
+              </p>
+            <form class="example-form" #signUpForm="ngForm" (ngSubmit)="createUser(signUpForm)">
+                <table class="example-full-width" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>First name</mat-label>
+                                <input matInput type="text" placeholder="Enter First Name" name="userFirstName" ngModel
+                                    required>
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>Last Name</mat-label>
+                                <input matInput type="text" placeholder="Enter Last Name" name="userLastName" ngModel required>
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <mat-form-field appearance="fill" class="example-full-width">
+                                <mat-label>Username</mat-label>
+                                <input matInput type="text" placeholder="Enter Username" name="userName" ngModel required>
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Password</mat-label>
+                                <input matInput  name="userPassword" placeholder="Password" [type]="hide ? 'password' : 'text'" ngModel required>
+                                <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                            </mat-form-field>
+                        </td>
+                    </tr>
+        
+                </table>
+                <div mat-dialog-actions class="dialog-action-btn">
+                    <button mat-button mat-dialog-close>Cancel</button>
+                    <button type="submit" mat-button class="create" [disabled]="signUpForm.invalid">Create User</button>
+                </div>
+            </form>
+        </div>
+        
+

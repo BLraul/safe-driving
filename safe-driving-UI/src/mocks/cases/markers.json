@@ -1,0 +1,1100 @@
+{
+	"type": "markerList",
+	"markers": [
+		{
+			"caseId": 1009084,
+			"eventId": "ECS4d739f59-abc6-40fc-94b3-af3858c4380c",
+			"lat": 37.461921,
+			"lng": 126.4853,
+			"modelName": "330i",
+			"status": "NEW",
+			"dvx": 30,
+			"dvy": 10
+		},
+		{
+			"caseId": 1009259,
+			"eventId": "ECSc89bdb4e-b7fa-4688-92c1-8b9dd96b43cd",
+			"lat": 37.462131,
+			"lng": 126.485139,
+			"modelName": "330i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009220,
+			"eventId": "ECSbaa46e4f-e9d0-40b7-8585-de86d846e2f7",
+			"lat": 48.191815,
+			"lng": 11.568271,
+			"modelName": "735d xDrive",
+			"status": "PRESELECTION"
+		},
+		{
+			"caseId": 1009325,
+			"eventId": "ECS073dd10b-96b6-46ff-b0f6-c4e5de06c984",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009402,
+			"eventId": "ECS3f7f5157-a7e0-411d-ab1b-c2d3f9ff622d",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009415,
+			"eventId": "9hsHpe4Qy9wWLwSa",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009421,
+			"eventId": "w6uTJPg4WxN1NGS5",
+			"modelName": "525d",
+			"status": "PRESELECTION"
+		},
+		{
+			"caseId": 1009425,
+			"eventId": "m3XhVAQSQMHHODqB",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009354,
+			"eventId": "XCS4c7380bd-08ea-4c35-a392-c704f843bb99",
+			"modelName": "iX xDrive40",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009213,
+			"eventId": "ECS0036eb26-1ab0-4767-bd62-e515a4d1d93f",
+			"lat": 48.189566,
+			"lng": 11.56885,
+			"modelName": "525d",
+			"status": "IN_PROGRESS"
+		},
+		{
+			"caseId": 1009470,
+			"eventId": "ECS5ed5c613-0719-4d46-85e7-8b254ea260a0",
+			"lat": 48.189585,
+			"lng": 11.568852,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009092,
+			"eventId": "ECSed763ebf-ee32-4eb2-9141-5ad1688d8274",
+			"lat": 37.554251,
+			"lng": 126.645023,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009448,
+			"eventId": "C3STEV9e6zQKKU18",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009452,
+			"eventId": "e29swF0Pokdjn2Im",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009462,
+			"eventId": "dpqS2I2Qb18V5FiV",
+			"modelName": "525d",
+			"status": "IN_PROGRESS"
+		},
+		{
+			"caseId": 1009463,
+			"eventId": "PQrZ5tEf5lcwFNM4",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009485,
+			"eventId": "NGTPCS180623@bmw.de",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009192,
+			"eventId": "ECS716c28e7-cad7-44ac-b1ab-e65b4b86c0e3",
+			"lat": 48.199517,
+			"lng": 11.570391,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009233,
+			"eventId": "ECSf347d913-5fa5-4412-a715-120d3ae9431f",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "FINALIZED"
+		},
+		{
+			"caseId": 1009046,
+			"eventId": "NGTPCS176740@bmw.de",
+			"lat": 37.46174,
+			"lng": 126.48513,
+			"modelName": "Cooper SE",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009250,
+			"eventId": "ECS37f13884-af28-47da-b267-e4f30843c2ea",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009160,
+			"eventId": "KUces5ZjELXlWxHw",
+			"modelName": "525d",
+			"status": "FINALIZED"
+		},
+		{
+			"caseId": 1009180,
+			"eventId": "x0cr0jYoSvpevzgp",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009322,
+			"eventId": "ECSd2e27bd8-95a2-47e7-aa5f-c58e6a6cfe63",
+			"lat": 37.461907,
+			"lng": 126.485086,
+			"modelName": "330i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009249,
+			"eventId": "ECSbb99fcf5-aa00-4bfc-be65-0958ca69e9f3",
+			"lat": 37.461943,
+			"lng": 126.485126,
+			"modelName": "330i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009356,
+			"eventId": "ECSe47901f3-c7b9-4155-8e86-04cb37cd2c3e",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "FINALIZED"
+		},
+		{
+			"caseId": 1009417,
+			"eventId": "JrhciQLein7DhSDo",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009418,
+			"eventId": "whfcX36WBSnweYhv",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009081,
+			"eventId": "ECS3b950e01-d0bd-4c3f-a427-2b6d9efa8804",
+			"lat": 48.189576,
+			"lng": 11.568848,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009179,
+			"eventId": "ECSce9e8192-706b-4bc9-ac97-4b8b8e25c295",
+			"lat": 48.189571,
+			"lng": 11.568833,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009398,
+			"eventId": "ECSc55aedc2-27c4-4500-8183-97de6b2c0a8f",
+			"lat": 48.189573,
+			"lng": 11.568855,
+			"modelName": "525d",
+			"status": "MARKED_FOR_DELETION"
+		},
+		{
+			"caseId": 1009058,
+			"eventId": "ECS33ed7901-d920-4faf-ad14-a0a22afc282f",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "MARKED_FOR_DELETION"
+		},
+		{
+			"caseId": 1009482,
+			"eventId": "ECS04c9d500-1865-49eb-9557-7d998b39f3b8",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009170,
+			"eventId": "ECS65d16165-d35f-4bee-9794-fea8d72b340c",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009178,
+			"eventId": "ECS462cfb26-b0fc-4568-ade1-6c0a7a8f5891",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009139,
+			"eventId": "ECS87079dd5-7e13-4186-8dd9-f0869ef3e320",
+			"lat": 48.177758,
+			"lng": 11.537311,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009360,
+			"eventId": "ECSe8001cc1-9af2-4f4a-9063-735e4c8e4438",
+			"lat": 37.554238,
+			"lng": 126.644876,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009121,
+			"eventId": "ECS1d96f2e2-2d52-4d5e-bf71-60a53cd03bac",
+			"lat": 37.554269,
+			"lng": 126.644947,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009104,
+			"eventId": "ECSc9e7dcf4-c68d-4ca2-ba89-99ceb53f80b5",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "i4 eDrive40",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009400,
+			"eventId": "ECS0ab198cf-b5d0-432b-ad62-8b762706b9a9",
+			"lat": 48.174153,
+			"lng": 11.596715,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009270,
+			"eventId": "3jnpGQhRIbcq3NYj",
+			"modelName": "525d",
+			"status": "MARKED_FOR_DELETION"
+		},
+		{
+			"caseId": 1009276,
+			"eventId": "OogAhXRQyycF8YMR",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009279,
+			"eventId": "eOZvwezAgCBegSwv",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009287,
+			"eventId": "hjyFpDh4tQ0DSpWO",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009367,
+			"eventId": "NGTPCS179086@bmw.de",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009237,
+			"eventId": "ECS1b97151f-f1dd-46e9-bebe-0f46f4e1303d",
+			"lat": 48.190816,
+			"lng": 11.569735,
+			"modelName": "320i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009370,
+			"eventId": "W7TwxF4U3c7GiV7b",
+			"modelName": "525d",
+			"status": "REOPENED"
+		},
+		{
+			"caseId": 1009389,
+			"eventId": "A315jzoIj2q1ouIe",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009166,
+			"eventId": "ECS1b4afafb-c9f8-4200-ba9d-b8652708a3d7",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "X5 xDrive30d",
+			"status": "REOPENED"
+		},
+		{
+			"caseId": 1009397,
+			"eventId": "ECSed59f79e-4a45-4326-9b11-b2a915fd48b4",
+			"lat": 37.533628,
+			"lng": 126.651962,
+			"modelName": "X5 xDrive30d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009094,
+			"eventId": "ECS3418fc2b-4543-444e-9e25-3573e8a0c5c0",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009364,
+			"eventId": "ECS20d3837b-6e58-4dcd-8b9c-1cd6e45623b6",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009236,
+			"eventId": "ECSc68552d7-fc89-42ee-8d0b-72dc074fad8f",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009059,
+			"eventId": "ECS789f942e-0e62-443d-95fe-5965b481284a",
+			"lat": 48.177769,
+			"lng": 11.53738,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009080,
+			"eventId": "ECS96c4e77a-eb07-444f-93af-64ec30bdcd33",
+			"lat": 48.177554,
+			"lng": 11.537958,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009224,
+			"eventId": "ECS10b04ad5-d9a2-4194-ba6b-8b8dd2094a2a",
+			"lat": 48.177581,
+			"lng": 11.53726,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009345,
+			"eventId": "ECS300b97af-f8cb-4b08-907a-a25d20cbd08c",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "CASE_DELETED"
+		},
+		{
+			"caseId": 1009242,
+			"eventId": "ECSf05a4848-bf60-4c9a-b9da-40d238792a27",
+			"lat": 37.554261,
+			"lng": 126.64488,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009182,
+			"eventId": "ECS8066452a-f190-464b-b86a-b40ff263a111",
+			"lat": 37.554229,
+			"lng": 126.644924,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009359,
+			"eventId": "ECSef2ffbe1-8774-47e4-b6b0-1807ff8d6a03",
+			"lat": 37.554283,
+			"lng": 126.644916,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009217,
+			"eventId": "ECS9d277bd4-ec8e-4efd-8eb4-890f01995545",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "CASE_DELETED"
+		},
+		{
+			"caseId": 1009101,
+			"eventId": "ECS50900206-680e-4037-8b1a-91f0ffe474e8",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009318,
+			"eventId": "ECSbe9cb53f-dc4b-4496-bb18-c3d14032efd9",
+			"lat": 37.554254,
+			"lng": 126.644877,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009176,
+			"eventId": "ECS60c66cc3-6f7b-4918-bd45-65b34dbd56be",
+			"lat": 21.017276,
+			"lng": 105.784502,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009342,
+			"eventId": "ECS017dc80a-4e6a-4a5a-8c2a-3564c61de38f",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009105,
+			"eventId": "ECS67967446-5557-42f4-8760-bf0d010d55c8",
+			"lat": 37.554338,
+			"lng": 126.645013,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009119,
+			"eventId": "ECS1380f5ba-d781-4e4d-b9a7-e9e13c4f4b01",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009181,
+			"eventId": "ECS9b436c1c-1410-4f94-9d5d-045bca9c1380",
+			"lat": 21.016372,
+			"lng": 105.783888,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009118,
+			"eventId": "ECSd0caa8ba-faa2-4117-a52f-0d0b72498116",
+			"lat": 37.554234,
+			"lng": 126.644999,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009183,
+			"eventId": "ECS78d64e89-ebe9-495c-8cca-cb1d9c0d8386",
+			"lat": 37.554279,
+			"lng": 126.644898,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009320,
+			"eventId": "ECSa25bea8a-7c67-4b76-8a58-20fdee87b88b",
+			"lat": 37.461962,
+			"lng": 126.485411,
+			"modelName": "740i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009037,
+			"eventId": "ECS8d75faa1-e5c6-408e-bf7b-be65067eae96",
+			"lat": 48.174224,
+			"lng": 11.59698,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009193,
+			"eventId": "ECS3b806225-de37-4368-9fd8-eae51788863a",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009311,
+			"eventId": "NgtpBaseLoadTest165727125570@bmw.de",
+			"modelName": "M4",
+			"status": "CASE_DELETED"
+		},
+		{
+			"caseId": 1009314,
+			"eventId": "NgtpBaseLoadTest165727125517@bmw.de",
+			"modelName": "540i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009351,
+			"eventId": "ECS44305014-6d98-433b-ae37-b3bd8e9e24be",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009153,
+			"eventId": "ECS051fb1aa-c3f5-4388-9c70-51a3e61ef0c0",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009229,
+			"eventId": "ECS5d5135e2-ed4c-405e-b58d-97dad385fe27",
+			"lat": 37.461694,
+			"lng": 126.4852,
+			"modelName": "iX1 xDrive30",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009241,
+			"eventId": "NGTPCS178292@bmw.de",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009337,
+			"eventId": "ECS276d1ac5-5fee-4d4b-b73b-bb34eef364de",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009442,
+			"eventId": "Qy1py0Rcfcjsi3vo",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009455,
+			"eventId": "AW7SaNZNOYYMp8am",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009461,
+			"eventId": "61hxKP3R1zqEJVW9",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009261,
+			"eventId": "ECSb410a4b8-bd58-47cc-8f2a-255ee4d0f62d",
+			"lat": 37.55425,
+			"lng": 126.644886,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009399,
+			"eventId": "ECSb935a711-14f5-4190-a07c-0d949181c783",
+			"lat": 51.147132,
+			"lng": 14.987393,
+			"modelName": "Volkswagen Passat",
+			"status": "NEW",
+			"img": "../assets/images/accidents/vw.jpg"
+		},
+		{
+			"caseId": 1009173,
+			"eventId": "ECSaa644e4a-c5cb-44a2-a20d-f8b0b953c505",
+			"lat": 37.554276,
+			"lng": 126.64491,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009484,
+			"eventId": "ECSc9f8f29f-3554-4bbb-a6f3-e4a33a18e570",
+			"lat": 48.191785,
+			"lng": 11.568586,
+			"modelName": "218i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009211,
+			"eventId": "ECS8d639ae3-beed-4077-a0b4-b60e312d5c78",
+			"lat": 37.461905,
+			"lng": 126.485281,
+			"modelName": "330i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009346,
+			"eventId": "ECSd7bb6c15-39db-42da-8c97-0ef060306b33",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009348,
+			"eventId": "ECSedbe7b0e-58f2-4704-9fb5-b8a671968ef8",
+			"lat": 48.307924,
+			"lng": 11.618159,
+			"modelName": "XM",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009401,
+			"eventId": "ECS4a01608c-beaf-4422-98c9-450a9302e3b7",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009414,
+			"eventId": "zetthde1JqiRqel5",
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009262,
+			"eventId": "ECS5b2c04a4-a31b-44b4-b0dd-a7a032f2003c",
+			"lat": 48.189576,
+			"lng": 11.568838,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009154,
+			"eventId": "ECS14798d0d-df18-408a-8a11-727aba93d19f",
+			"lat": 48.189585,
+			"lng": 11.568853,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009048,
+			"eventId": "ECS93a1ac67-51c6-4a61-99e8-2a5cbdd1872d",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009129,
+			"eventId": "ECS7e82baa2-3358-42d2-b356-00a4f61ba7bf",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009157,
+			"eventId": "ECS3dd1b861-ec50-406b-bb41-80bcf993cf6d",
+			"lat": 37.554238,
+			"lng": 126.644873,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009299,
+			"eventId": "ECS799c1334-d45d-44c7-b863-dda05fa69349",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009191,
+			"eventId": "ECS509ee73e-045c-43fe-90ce-865d5c3c6262",
+			"lat": 37.554278,
+			"lng": 126.644897,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009243,
+			"eventId": "ECS13ecffb1-daa8-47b4-9ef8-df4cd3a66ba2",
+			"lat": 37.554234,
+			"lng": 126.644993,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009093,
+			"eventId": "ECS96703f84-d6b0-417b-bb67-2bd9ff49827b",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009207,
+			"eventId": "ECS5fd52041-31fa-45eb-ae08-ca0d05b63105",
+			"lat": 48.177696,
+			"lng": 11.537421,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009474,
+			"eventId": "ECS3dd0f3f3-fe5d-4b9f-acbb-b323e9993daf",
+			"lat": 48.177605,
+			"lng": 11.537713,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009434,
+			"eventId": "ECS20f53e75-3730-4e12-930b-2fc09c96cd7a",
+			"lat": 37.55424,
+			"lng": 126.644863,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009149,
+			"eventId": "ECSf5b6280b-ca2a-4eaf-af0c-4d32e3bf0b68",
+			"lat": 37.554226,
+			"lng": 126.644937,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009210,
+			"eventId": "ECS0ce1491c-150b-4752-b16d-2a51aece3190",
+			"lat": 37.554253,
+			"lng": 126.644876,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009103,
+			"eventId": "ECSd46fcb01-c7ab-4597-99f8-6aef8dff1f23",
+			"lat": 48.307624,
+			"lng": 11.618161,
+			"modelName": "M2",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009480,
+			"eventId": "ECS104da47d-3dc9-46ea-b5fe-c0b28860121e",
+			"lat": 48.19214,
+			"lng": 11.568426,
+			"modelName": "iX xDrive50",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009329,
+			"eventId": "ECS4ddea94d-a0f6-46af-a51c-683863924ebf",
+			"lat": 48.191969,
+			"lng": 11.568853,
+			"modelName": "X5 M50d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009050,
+			"eventId": "ECS478617c2-8897-4cbc-8520-db5fcf93a1e8",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009079,
+			"eventId": "ECSfa996528-f865-499d-97ff-609e31d49bbb",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009045,
+			"eventId": "ECS8ebb35db-50fa-4ae9-8c93-797dec5735c6",
+			"lat": 48.174034,
+			"lng": 11.596832,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009053,
+			"eventId": "ECSbea66963-598c-49c1-87b8-c8c9411e1da8",
+			"lat": 48.275261,
+			"lng": 11.558411,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009253,
+			"eventId": "ECSdfa55002-a5bf-4fb3-b6d9-602555d50621",
+			"lat": 48.275304,
+			"lng": 11.558279,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009265,
+			"eventId": "ECSd6ecd8e9-2f38-4921-b72e-a876ae15c2ab",
+			"lat": 48.177721,
+			"lng": 11.537319,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009067,
+			"eventId": "ECSdba3406e-057c-435f-986a-2030fca744f5",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009469,
+			"eventId": "ECS17704f44-a089-4120-b829-562602d95c1b",
+			"lat": 37.554237,
+			"lng": 126.644895,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009247,
+			"eventId": "ECS8951d224-e4b3-4711-b6a7-bfb63436b350",
+			"lat": 37.554206,
+			"lng": 126.644917,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009205,
+			"eventId": "ECS0c53cedd-4dd6-4df1-befa-37f1ac32bce8",
+			"lat": 37.554259,
+			"lng": 126.644814,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009070,
+			"eventId": "ECSd0da6345-11f7-4ff4-9a69-20ed94298992",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009068,
+			"eventId": "ECS33b9f919-5aa8-4a7f-9416-1199bf7ad3ab",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009296,
+			"eventId": "ECSc54be665-e7b4-4737-b8ae-8f36e0803a9f",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009405,
+			"eventId": "TEST-SAFER-2929-1",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009200,
+			"eventId": "NGTPCS178258@bmw.de",
+			"lat": 48.190746,
+			"lng": 11.569562,
+			"modelName": "John Cooper Works ALL4",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009120,
+			"eventId": "ECS29cf8daf-83be-4548-90ca-9285a292a425",
+			"lat": 37.554216,
+			"lng": 126.644918,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009338,
+			"eventId": "ECSc240d12c-7edf-41ad-817b-a8b74dd5d24c",
+			"lat": 37.554241,
+			"lng": 126.644888,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009087,
+			"eventId": "ECS12ed98f9-2b75-478e-a088-0c55f56ecbc3",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009025,
+			"eventId": "ECS8f513fa4-e210-4170-840b-6d10c35356c8",
+			"lat": 48.191855,
+			"lng": 11.568623,
+			"modelName": "218i",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009066,
+			"eventId": "ECSc28e429c-3e22-4b2d-ada5-cf70f52b77b8",
+			"lat": 37.461982,
+			"lng": 126.485143,
+			"modelName": "Dacia Logan",
+			"status": "NEW",
+			"victims": 1,
+			"carsInvolved": 2,
+			"severity": "SEVERE CRASH",
+			"sa05dx": true,
+			"img": "../assets/images/accidents/Logan1.jpg"
+		},
+		{
+			"caseId": 1009310,
+			"eventId": "ECSa2bd2143-e815-4d05-9750-ff7af4df35ed",
+			"lat": 21.016473,
+			"lng": 105.784014,
+			"modelName": "Audi A3",
+			"status": "NEW",
+			"severity": "SEVERE_MULTIPLE_CRASH",
+			"img": "../assets/images/accidents/Audi1.jpeg"
+		},
+		{
+			"caseId": 1009313,
+			"eventId": "ECSa2bd2143-e815-4d05-9750-ff7af4df35ee",
+			"lat": 46.187305874756866,
+			"lng": 21.198931777254277,
+			"modelName": "Renault Megane",
+			"status": "NEW",
+			"victims": 2,
+			"carsInvolved": 2,
+			"severity": "SEVERE_MULTIPLE_CRASH",
+			"img": "../assets/images/accidents/renault.jpeg"
+		},
+		{
+			"caseId": 1009315,
+			"eventId": "ECS029da60f-adbf-4651-aedc-d0c268d234a9",
+			"lat": 90,
+			"lng": 180,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009083,
+			"eventId": "ECS9046f16e-856e-4d01-bb3c-65476081473d",
+			"lat": 0,
+			"lng": 0,
+			"modelName": "525d",
+			"status": "NEW",
+			"img": "../assets/images/accidents/Opel.jpeg"
+		},
+		{
+			"caseId": 1009435,
+			"eventId": "ECS30827a3b-ce81-445b-80e4-0ff7679a3064",
+			"lat": 48.178567,
+			"lng": 11.545254,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009020,
+			"eventId": "ECSd5ebda59-c541-4310-8485-2403336234d6",
+			"lat": 37.554153,
+			"lng": 126.644989,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009055,
+			"eventId": "ECSe2b84821-7ac3-4573-a14e-a63c0c048855",
+			"lat": 48.177685,
+			"lng": 11.537345,
+			"modelName": "525d",
+			"status": "NEW",
+			"img": "../assets/images/accidents/vw2.jpg"
+		},
+		{
+			"caseId": 1009228,
+			"eventId": "ECS73f576ee-992a-41f2-a6c5-108d3a0de34f",
+			"lat": 37.554251,
+			"lng": 126.644868,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009174,
+			"eventId": "ECS33ecd387-3507-4f7f-9855-a206dab32932",
+			"lat": 37.554246,
+			"lng": 126.644886,
+			"modelName": "525d",
+			"status": "NEW"
+		},
+		{
+			"caseId": 1009307,
+			"eventId": "ECS0dbdb06f-754a-45dc-9a91-27a08c9feec1",
+			"lat": 48.191881,
+			"lng": 11.56902,
+			"modelName": "525d",
+			"status": "PRESELECTION",
+			"dvx": 30,
+			"dvy": 10,
+			"severity": "SEVERE_MULTIPLE_CRASH",
+			"sa05dx": true,
+			"series": "E60",
+			"variant": "525d"
+		},
+		{
+			"caseId": 1009061,
+			"eventId": "ECSc82bf0cc-e4c5-4ef6-b89b-5f0c684d2127",
+			"lat": -32.38655584210581, 
+			"lng": -56.93792341146909,
+			"modelName": "525d",
+			"status": "PRESELECTION",
+			"dvx": 30,
+			"dvy": 10,
+			"severity": "SEVERE",
+			"sa05dx": false,
+			"series": "E60",
+			"variant": "525d"
+		}
+		 
+	]
+}

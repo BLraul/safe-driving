@@ -1,0 +1,46 @@
+.programings{
+    padding: 10px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(140, 142, 145, 0.1);
+    
+}
+.programing-toolbar{
+    background: #343a40;
+}
+  table {
+    width: 100%;
+  }
+
+
+  .delete-btn{
+    background:  #ff4d4d;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(140, 142, 145, 0.1);
+    border-bottom-right-radius: 15rem;
+    border-top-right-radius: 15rem;
+  
+    mat-icon{
+     color: #fff;
+    }
+  }
+  
+  .delete-btn:hover {
+    background-color: #d03232fe;;
+    }
+  
+  .edit-btn{
+    background: rgb(0, 140, 186); 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(140, 142, 145, 0.1);
+    border-bottom-left-radius: 15rem;
+    border-top-left-radius: 15rem;
+  
+    mat-icon{
+     color: #fff;
+    }
+  }
+  
+  .edit-btn:hover {
+    background-color: rgb(0, 115, 153);
+  }
+  

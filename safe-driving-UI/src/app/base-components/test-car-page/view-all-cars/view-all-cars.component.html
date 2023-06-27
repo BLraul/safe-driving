@@ -1,0 +1,45 @@
+<!-- Header -->
+<div class="header" aria-hidden="true">
+    <h1 class="header-title">
+        Test drive a car and let us know what you think</h1>
+    <p class="header-subtitle">
+        Te intrebi ce model ti se potriveste? Inscrie-te la un test drive cu un model. Vezi toate noile autovehicule disponibile pentru test drive și descoperă universul AutoSof...</p>
+       <div class="search">
+        <div class="search-content">
+            <mat-form-field  class="search-form-fild"  appearance="outline"  > 
+                <input type="search" matInput  placeholder="Search Car for Test..."
+                 (ngModelChange)="searchCarTest(key.value)" #key="ngModel" ngModel
+              name="key" id="searchName" >
+            </mat-form-field>
+            <mat-icon class="search-icon">search</mat-icon>
+        </div>
+        
+       </div>
+        
+</div>
+
+<!-- SECTION -->
+<div class="sidenav-content" id="main-container" aria-hidden="true">
+    <mat-card class="card" *ngFor=" let carList of carsListFilter$ | async " >
+        <mat-card-header class="titleCar">
+            <div mat-card-avatar class="card-header-image"></div>
+            <mat-card-title > 
+                {{carList.productName}}
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{carList.price | currency}}
+            </mat-card-subtitle>
+        </mat-card-header>
+        <img class="test-car-img" mat-card-image src={{carList.prodImg}} alt="Photo of a Car">
+        <mat-card-content>
+            <p class="description">
+                {{carList.description}}
+            </p>
+        </mat-card-content>
+        <mat-card-actions class="mat-card-btn">
+            <button mat-button type="button" class="select-btn" (click)="navigateToTheCar(carList.id)">
+                Select the car<mat-icon> directions_car</mat-icon>
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</div>

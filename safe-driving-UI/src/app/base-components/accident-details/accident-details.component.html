@@ -1,0 +1,311 @@
+<app-coverage-maps
+    width="30%"
+    [focusOnMarker]="selectedMarkerObs$ | async"
+    [caseMarkersColor]="markersColor"
+    [isCaseDetailsMode]="true"
+    [casesMarkers]="allMarkersInCurrentView"
+    (openCaseDetails)="openCrashDetails($event)"
+    [caseDetailsTraceMarkers]="traceMarkers"
+></app-coverage-maps>
+
+<div class="split container-crash-details">
+    <div
+        class="details-container"
+        *ngIf="accidentDetails$ | async as accidentDetails"
+    >
+        <div class="left-top">
+            <ul>
+                <li class="list-items">
+                    Case:
+                    <span>{{ accidentDetails?.event?.caseId }}</span>
+                </li>
+                <li class="list-items">
+                    Event ID:
+                    <span
+                        [class.long-text-value]="
+                            accidentDetails?.event?.eventId?.length >= 15
+                        "
+                    >
+                        {{ accidentDetails?.event?.eventId }}</span
+                    >
+                </li>
+                <li class="list-items">
+                    VIN:
+                    <span>{{ accidentDetails?.vehicle?.vin }}</span>
+                </li>
+                <li class="list-items">
+                    Model type:
+                    <span>{{ accidentDetails?.vehicle?.modelType }}</span>
+                </li>
+                <li class="list-items">
+                    Model name:
+                    <span>{{ accidentDetails?.vehicle?.modelName }}</span>
+                </li>
+                <li class="list-items">
+                    Production date:
+                    <span>{{ accidentDetails?.vehicle?.productionDate }}</span>
+                </li>
+                <li class="list-items">
+                    Engine type:
+                    <span>{{ accidentDetails?.vehicle?.engineType }}</span>
+                </li>
+                <li class="list-items">
+                    Home Country Code:
+                    <span>{{ accidentDetails?.vehicle?.homeCountryCode }}</span>
+                </li>
+                <li class="list-items">
+                    HMI Language:
+                    <span>{{ accidentDetails?.vehicle?.hmiLanguage }}</span>
+                </li>
+                <li class="list-items">
+                    Customer:
+                    <span>{{ accidentDetails?.vehicle?.customer }}</span>
+                </li>
+                <li class="list-items">
+                    Contact:
+                    <span
+                        [class.long-text-value]="
+                            accidentDetails?.vehicle?.contact?.length >= 15
+                        "
+                        >{{ accidentDetails?.vehicle?.contact }}</span
+                    >
+                </li>
+            </ul>
+        </div>
+        <div class="middle-left">
+            <ul>
+                <li class="list-items">
+                    Accident date / time:
+                    <span>{{ accidentDetails?.event?.accidentDateTime }}</span>
+                </li>
+                <li class="list-items">
+                    URGENCY overall:
+                    <span
+                        [class.long-text-value]="
+                            accidentDetails?.event?.urgency?.length >= 15
+                        "
+                    >
+                        {{ accidentDetails?.event?.urgency }}</span
+                    >
+                </li>
+                <li class="list-items">
+                    Probability MAIS 3+:
+                    <span>{{ accidentDetails?.event?.probabilityMais }}</span>
+                </li>
+                <li class="list-items">
+                    Rollover detected:
+                    <span>{{
+                        accidentDetails?.vehicleStatus?.rolloverDetected
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v1 (x):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv1x }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v1 (y):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv1y }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v2 (x):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv2x }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v2 (y):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv2y }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v3 (x):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv3x }}</span>
+                </li>
+                <li class="list-items">
+                    ∆v3 (y):
+                    <span>{{ accidentDetails?.vehicleStatus?.dv3y }}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-left">
+            <ul>
+                <li class="list-items">
+                    Backup battery used:
+                    <span>{{
+                        accidentDetails?.vehicleStatus?.backupBatteryUsed
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Backup antenna used:
+                    <span>{{
+                        accidentDetails?.vehicleStatus?.backupAntennaUsed
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Vehicle orientation:
+                    <span>{{
+                        accidentDetails?.vehicleStatus?.vehicleOrientation
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Driver door opened:
+                    <span>{{
+                        accidentDetails?.vehicleStatus?.driverDoorOpened
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    HV status:
+                    <span>{{ accidentDetails?.agentReport?.hvStatus }}</span>
+                </li>
+                <li class="list-items">
+                    DAS status:
+                    <span>{{ accidentDetails?.agentReport?.dasStatus }}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="top-middle">
+            <app-accident-details-graphics [crashDetails]="accidentDetails">
+            </app-accident-details-graphics>
+        </div>
+        <div class="bottom-middle">
+            <h2>Agent Report</h2>
+            <ul>
+                <li class="list-items">
+                    Action status:
+                    <span>{{ accidentDetails?.agentReport?.actionStatus }}</span>
+                </li>
+                <li class="list-items">
+                    Audio status:
+                    <span
+                        id="currentText"
+                        [class.long-text-value]="
+                            accidentDetails?.agentReport?.audioStatus?.length >= 15
+                        "
+                        >{{ accidentDetails?.agentReport?.audioStatus }}</span
+                    >
+                </li>
+                <li class="list-items">
+                    Occupants injured:
+                    <span>{{
+                        accidentDetails?.agentReport?.occupantsInjured
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Occupants trapped:
+                    <span>{{
+                        accidentDetails?.agentReport?.occupantsTrapped
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Occupants ejected:
+                    <span>{{
+                        accidentDetails?.agentReport?.occupantsEjected
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Fire:
+                    <span>{{ accidentDetails?.agentReport?.fire }}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <h2>Airbags</h2>
+            <ul class="airbag-seatbelt-list">
+                <li class="list-items">
+                    Driver, front:
+                    <span>{{ accidentDetails?.airbags?.airbagDriverFront }}</span>
+                </li>
+                <li class="list-items">
+                    Passenger, front:
+                    <span>{{
+                        accidentDetails?.airbags?.airbagFrontPassengerFront
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Driver, knee:
+                    <span>{{ accidentDetails?.airbags?.airbagDriverKnee }}</span>
+                </li>
+                <li class="list-items">
+                    Passenger, knee:
+                    <span>{{
+                        accidentDetails?.airbags?.airbagFrontPassengerKnee
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Driver, thorax:
+                    <span>{{ accidentDetails?.airbags?.airbagDriverThorax }}</span>
+                </li>
+                <li class="list-items">
+                    Passenger, thorax:
+                    <span>{{
+                        accidentDetails?.airbags?.airbagFrontPassengerThorax
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Driver, head:
+                    <span>{{ accidentDetails?.airbags?.airbagDriverHead }}</span>
+                </li>
+                <li class="list-items">
+                    Passenger, head:
+                    <span>{{
+                        accidentDetails?.airbags?.airbagFrontPassengerHead
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    DS rear Thorax:
+                    <span>{{
+                        accidentDetails.airbags?.airbagDriverSideRear
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    PS rear Thorax:
+                    <span>{{
+                        accidentDetails.airbags?.airbagPassengerSideRear
+                    }}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="upper-middle-right">
+            <h2>Seatbelt Status</h2>
+            <ul class="airbag-seatbelt-list">
+                <li class="list-items">
+                    Driver:
+                    <span>{{ accidentDetails?.seatbelts?.seatbeltDriver }}</span>
+                </li>
+                <li class="list-items">
+                    Front passenger:
+                    <span>{{
+                        accidentDetails?.seatbelts?.seatbeltFrontPassenger
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Rear left:
+                    <span>{{
+                        accidentDetails?.seatbelts?.seatbeltRearDriverSide
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Rear right:
+                    <span>{{
+                        accidentDetails?.seatbelts?.seatbeltRearPassengerSide
+                    }}</span>
+                </li>
+                <li class="list-items">
+                    Rear middle:
+                    <span>{{
+                        accidentDetails?.seatbelts?.seatbeltRearMiddle
+                    }}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="lower-middle-right">
+            <div class="scroll-content">
+                <h2>Agent Notes:</h2>
+                <p>{{ accidentDetails?.agentReport?.agentNotes }}</p>
+            </div>
+        </div>
+        <div class="bottom-right">
+            <div class="scroll-content">
+                <h2>Agent Chat:</h2>
+                <p>{{ accidentDetails?.agentReport?.agentChat }}</p>
+            </div>
+        </div>
+    </div>
+</div>

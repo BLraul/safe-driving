@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+.body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(140, 142, 145, 0.1);
+  border-radius: .15rem;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10vh;
+}
+
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.submitBtn{
+  background-color: rgb(0, 140, 186);
+  max-width: 50%;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.newUserBtn {
+  max-width: 50%;
+  border-radius: 10px;
+  background-color: #04AA6D;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.actionBtn{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+span.psw {
+  padding-top: 5px;
+  font-size: normal;
+  font-family: 'Poppins', sans-serif;
+}
+.rememberMe{
+  font-family: 'Poppins', sans-serif;
+  font-size: normal;
+}
+
+.eyeicon {
+  right: 20px;
+  top: 200px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .newUserBtn {
+     width: 70%;
+  }
+}

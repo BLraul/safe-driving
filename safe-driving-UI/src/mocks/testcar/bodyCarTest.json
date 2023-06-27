@@ -1,0 +1,14 @@
+{
+    "id": 1,
+    "productId":2,
+    "categoryId": 2,
+    "productName": "Opel",
+    "description": "Opel Astra",
+    "raiting": "",
+    "price": 40,
+    "prodImg": "assets/images/rent-car-images/vauxhall-astra-01.jpg",
+    "isAvailable": 1,
+    "color": "blue",
+    "reviews": 3
+
+  }

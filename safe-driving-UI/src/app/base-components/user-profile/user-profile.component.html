@@ -1,0 +1,29 @@
+<div class="dropdown" (mouseleave)="toggleMenu(false)">
+    <button mat-mini-fab aria-label="Button with initials user" class="header-user-button" (mouseover)="toggleMenu(true)" *ngIf="userData">
+        <span>{{ getInitials(userData)}}</span>
+    </button>
+    <div class="dropdown-menu" *ngIf="isMenuOpened">
+        <div class="menu-item"  *ngIf="userData" >
+            <mat-icon>verified_user</mat-icon>
+            <span class="text">{{ userData.userFirstName}} {{ userData.userLastName }}</span>
+        </div>
+        <hr />
+        <div class="menu-item">
+            <mat-icon>badge</mat-icon>
+            <span class="text">My Roles</span>
+            <div class="userRoles" *ngIf="userRoles">
+                <ul *ngFor="let role of userRoles">
+                    <li>{{ role }}</li>
+                </ul>
+                <ul *ngIf="userRoles.length === 0">
+                    <li>No Roles Assigned</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="menu-item" (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            <span class="text">LogOut</span>
+        </div>
+    </div>
+</div>

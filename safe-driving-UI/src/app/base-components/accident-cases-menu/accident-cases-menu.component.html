@@ -1,0 +1,65 @@
+<div
+    id="deletion_container"
+    class="menu_map"
+    (mouseenter)="containerEnter('MARKED_FOR_DELETION')"
+    (mouseleave)="containerLeave()"
+>
+    <div id="deletion_container_text" class="text">
+        <span>{{markForDeletion}}</span>
+    </div>
+    <div id="deletion_container_img" class="menu_map">
+        <img
+            src="../../../assets/images/map-menu/trash_bin.svg"
+            alt="trash_bin"
+        />
+    </div>
+</div>
+
+<div
+    id="in_progress_container"
+    class="menu_map"
+    (mouseenter)="containerEnter('IN_PROGRESS')"
+    (mouseleave)="containerLeave()"
+>
+    <div id="in_progress_container_text" class="text">
+        <span>{{ inProgress }}</span>
+    </div>
+    <div id="in_progress_container_img">
+        <img
+            src="../../../assets/images/map-menu/selection.svg"
+            alt="selection"
+        />
+    </div>
+</div>
+
+<div
+    id="preselection_container"
+    class="menu_map"
+    (click)="togglePreselectionView()"
+    *ngIf="!isPreselectionContainerClicked"
+    (mouseenter)="containerEnter('PRESELECTION')"
+    (mouseleave)="containerLeave()"
+>
+    <div id="preselection_container_text" class="text">
+        <span>{{ preselection }}</span>
+    </div>
+    <div id="preselection_container_img">
+        <img
+            src="../../../assets/images/map-menu/preselection.svg"
+            alt="preselection"
+        />
+    </div>
+</div>
+
+<div
+    class="is_collapsed"
+    (click)="togglePreselectionView()"
+    *ngIf="isPreselectionContainerClicked"
+>
+    <div id="preselection_container_img">
+        <img
+            src="../../../assets/images/map-menu/preselection.svg"
+            alt="preselection"
+        />
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+    "qnumber": "QQQTEST",
+    "role": [
+        {
+            "roleName":[
+                "CaseOwner",
+                "DE-User",
+                "GD_EINTRAG",
+                "ipq_access_extern",
+                "B2E_U_x",
+                "PGA_USER",
+                "LUNA_User",
+                "AAI_Reader",
+                "famos_access"
+            ],
+            "roleDescription":"Bla"
+
+        }   
+    ],
+    "type": "userSettings",
+    "department": "FG-40",
+    "employeetype": "internal",
+    "userLastName": "Thomas",
+    "userFirstName": "TestUser"
+}

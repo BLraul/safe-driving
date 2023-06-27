@@ -1,0 +1,14 @@
+.map {
+    width: 100%;
+    height: calc(100% - var(--safer-header-height));
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0px 0px 0px 0px;
+    position: absolute;  
+    z-index: 1; 
+}  
+
+.trace{
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,110 @@
+
+.header {
+    padding: 100px 100px 40px 100px;
+      background: rgb(107, 152, 141);
+      color: white;
+      max-width: 88%;
+      margin: auto;
+      border-radius: 15px 50px
+    }
+  
+    .header-title{
+      text-align: center;
+      font-size: xx-large;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-subtitle{
+      text-align: center;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    .search{
+      display: flex;
+      justify-content: flex-end;
+      justify-items: center;
+      min-width: 50%;
+      margin-top: 50px;
+    }
+  
+    .search-content{
+      display: flex;
+      justify-content: flex-end;
+      width: 50%;
+     padding: 0 30px;
+    }
+  
+  
+    .search-form-fild{
+     width: 100%;
+    }
+    .search-icon{
+      display: flex;
+      margin-top: 13px;
+    }
+  
+  
+    .sidenav-content {
+      display: flex;
+      padding: 5px;
+      justify-content: center;
+      flex-wrap:  wrap;
+      gap: 10px;
+      gap: 10px 20px; 
+      row-gap: 10px;
+      column-gap: 20px;
+      align-content: stretch;
+  
+    }
+  .card {
+      max-width: 350px;
+      background: #343a40;
+    }
+    
+    .card-header-image {
+      background-image: url(../../../../assets/images/autosof-card.jpg);
+      background-size: cover;
+    }
+  
+    .description{
+      padding: 20px 5px 5px 0;
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    .mat-card-btn{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px 20px;
+      align-self: flex-end;
+      flex: 1 0 auto;
+  
+    }
+  
+    .mat-card>.mat-card-actions:last-child{
+      margin: 0;
+      padding: 15px;
+    }
+    .mat-card-actions .mat-button, .mat-card-actions .mat-raised-button, .mat-card-actions .mat-stroked-button {
+      margin: 0;
+    }
+  
+  
+  .select-btn{
+    background: rgb(107, 152, 141); 
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(140, 142, 145, 0.1);
+    mat-icon{
+     color: #fff;
+     margin-left: 5px;
+    }
+  }
+  
+  .edit-btn:hover {
+    background-color: rgb(79, 112, 104);
+  }
+  
+  .titleCar{
+    cursor: pointer;
+  }

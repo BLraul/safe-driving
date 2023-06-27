@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.split {
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    top: --safer-header-height;
+    width: 100vw;
+    height: calc(100vh - var(--safer-header-height));
+}
+
+.container-crash-details {
+    width: 70%;
+    right: 0px;
+    background-color: rgba(240, 240, 240, 0.9);
+    padding: 5px 3px 3px 3px;
+}
+
+.details-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 1fr;
+    grid-template-rows: 0.4fr 0.4fr 0.6fr 0.6fr 0.1fr;
+    grid-gap: 0.2rem;
+    grid-template-areas:
+        'left-top top-middle top-right  '
+        'left-top top-middle upper-middle-right'
+        'middle-left top-middle lower-middle-right'
+        'bottom-left bottom-middle bottom-right'
+        'crash-details-menu crash-details-menu crash-details-menu ';
+}
+
+.details-container > div {
+    background-color: rgba(240, 240, 240, 0.9);
+    box-shadow: inset 0 0 3px grey;
+    border-radius: 2px;
+    padding: 6px 5px 5px 5px;
+}
+
+ul li {
+    list-style-type: none;
+    font-family: 'BMWGroupTNCondensedTT-Light', Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    padding-top: 4px;
+}
+
+h2 {
+    font-family: 'BMWGroupTNCondensedProTT-Bold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.9vw;
+}
+
+p {
+    font-family: 'BMWGroupTNCondensedProTT-Light', monospace;
+    font-weight: 500;
+    font-size: 0.8vw;
+    padding-bottom: 2px;
+}
+
+.airbag-seatbelt-list {
+    display: grid;
+    grid-column-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.list-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left-top {
+    grid-area: left-top;
+    .list-items {
+        grid-template-columns: 0.8fr 1.2fr;
+        grid-column-gap: 1em;
+    }
+}
+
+.middle-left {
+    grid-area: middle-left;
+    .list-items {
+        grid-template-columns: 0.8fr 1.2fr;
+        grid-column-gap: 1em;
+    }
+}
+
+.bottom-left {
+    grid-area: bottom-left;
+    .list-items {
+        grid-template-columns: 0.8fr 1.2fr;
+        grid-column-gap: 1em;
+    }
+}
+
+.top-middle {
+    grid-area: top-middle;
+    background-color: white !important;
+}
+
+.bottom-middle {
+    grid-area: bottom-middle;
+    .list-items {
+        grid-template-columns: 0.8fr 1.2fr;
+        grid-column-gap: 1em;
+    }    
+}
+
+.long-text-value{
+    max-width: 300px;
+    word-break: break-all;
+    font-size: smaller;
+}
+
+
+.top-right {
+    grid-area: top-right;
+        .list-items {
+        grid-template-columns: 1.2fr 0.8fr;
+    }
+}
+
+.upper-middle-right {
+    grid-area: upper-middle-right;
+    .list-items {
+        grid-template-columns: 1.2fr 0.8fr;
+        
+    }
+}
+
+.lower-middle-right {
+    grid-area: lower-middle-right;
+    display: grid;
+    overflow-y: auto;
+}
+
+.bottom-right {
+    grid-area: bottom-right;
+    display: grid;
+    overflow-y: auto;
+}
+
+.scroll-content {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.crash-details-menu {
+    grid-area: crash-details-menu;
+    display: grid;
+    grid-gap: 0.2rem;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: none;
+    box-shadow: none !important;
+    padding: 0 !important;
+    min-height: 5px;
+}
+
+.img-sm{
+    max-width: 32px;
+    max-height: 27px;
+    height: auto;
+}
+
+.case-selection-button {
+    background-color: rgba(21, 101, 192, 0.5490196078431373);
+    align-items: center;
+}
+.case-selection-button:hover {
+    background-color: rgba(21, 101, 192, 0.8);
+}
+
+.selection-button {
+    background-color: rgba(46, 125, 50, 0.5450980392156862);
+    align-items: center;
+}
+.selection-button:hover {
+    background-color: rgba(46, 125, 50, 0.8);
+}
+
+.preselection-button {
+    background-color: rgba(106, 27, 154, 0.5450980392156862);
+    align-items: center;
+}
+.preselection-button:hover {
+    background-color: rgba(106, 27, 154, 0.8);
+}
+
+.deletion-button {
+    background-color: rgba(33, 33, 33, 0.5490196078431373);
+    align-items: center;
+}
+.deletion-button:hover {
+    background-color: rgba(33, 33, 33, 0.8);
+}

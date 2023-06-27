@@ -1,0 +1,72 @@
+.header-user-button {   
+    margin: 2px calc(var(--safer-header-height) / 20);
+    background-color: rgb(0,140,186);
+  }
+
+  .header-user-button:hover {
+    background: rgb(0, 100, 133);
+  }
+
+  .header-user-button span{
+    color: #fff;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid rgba(140, 142, 145, 0.1);
+    border-radius: .15rem;
+    right: 0;
+
+    hr {
+      border-radius: 0.5px;
+      margin: 0 10px;
+      color: rgba(140, 142, 145, 0.5);
+    }
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    color: rgb(75, 74, 74);
+    padding: 5px 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    margin: 7.5px;
+    font-family: var(--ds-typography-family-base);
+    font-size: var(--ds-typography-size-label);
+    font-weight: var(--ds-typography-weight-regular);
+    line-height: var(--ds-typography-line-height-label);
+
+    .text{
+      padding: 5px 5px;
+    }
+}
+
+    .userRoles{
+      padding: 5px;
+      float: left;
+      bottom: 0;
+      
+      ul li {
+        list-style-type: none;
+        font-size: 13px;
+      }
+      li {
+        margin-left:15px;
+      }
+    }
+  
+
+ .menu-item:hover {
+  background-color: #ddd;
+  border-radius: .10rem;
+}

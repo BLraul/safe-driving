@@ -1,0 +1,222 @@
+<div *ngIf="editProductDetails">
+  <mat-card-header>
+    <div mat-card-avatar class="card-header-image"></div>
+    <mat-card-title class="header-title">Update The Details Of The Car</mat-card-title>
+    <mat-card-subtitle>
+      {{editProductDetails.productName}}
+    </mat-card-subtitle>
+  </mat-card-header>
+  <div mat-dialog-content>
+    <div class="container">
+      <form class="example-form" #editForm="ngForm">
+        <mat-form-field class="example-full-width">
+          <mat-label>Company (disabled)</mat-label>
+          <input matInput disabled value="Autosof">
+        </mat-form-field>
+
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width" class="invisible example-full-width">
+              <mat-label>id</mat-label>
+              <input matInput name="id" ngModel="{{editProductDetails.id}}">
+            </mat-form-field></td>
+          <td><mat-form-field appearance="fill" class="invisible example-full-width">
+              <mat-label>testCarCode</mat-label>
+              <input matInput name="testCarCode" ngModel="{{editProductDetails?.testCarCode}}">
+            </mat-form-field></td>
+          </tr>
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Car name</mat-label>
+                <input type="text" matInput name="productName" ngModel="{{editProductDetails?.productName}}">
+              </mat-form-field></td>
+            <td>            
+              <mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Category Car</mat-label>
+                <mat-select name="categoryId" ngModel="{{editProductDetails?.categoryId}}">
+                  <mat-option value="1">BMW</mat-option>
+                  <mat-option value="2">Opel</mat-option>
+                  <mat-option value="3">Hyunday</mat-option>
+                  <mat-option value="4">Audi</mat-option>
+                  <mat-option value="5">Volkswagen</mat-option>
+                  <mat-option value="6">Dacia</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Efficiency(l/100km)</mat-label>
+                <input type="number" matInput name="efficiency" ngModel="{{editProductDetails?.efficiency}}">
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Performance(CP)</mat-label>
+                <input type="number" matInput name="performance" ngModel="{{editProductDetails?.performance}}">
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Transmission</mat-label>
+                <mat-select name="transmission" ngModel="{{editProductDetails?.transmission}}">
+                  <mat-option value="Manual">Manual</mat-option>
+                  <mat-option value="Automatically">Automatically</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Nr.gears</mat-label>
+                <mat-select name="tnr" ngModel="{{editProductDetails?.tnr}}">
+                  <mat-option value="0">0</mat-option>
+                  <mat-option value="5">5</mat-option>
+                  <mat-option value="6">6</mat-option>
+                  <mat-option value="7">7</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Car Color</mat-label>
+                <input matInput name="color" placeholder="Enter Car Color" ngModel="{{editProductDetails?.color}}">
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Is Available</mat-label>
+                <mat-select name="isAvailable" ngModel="{{editProductDetails?.isAvailable}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>PCA-R</mat-label>
+                <mat-select name="pcaR" ngModel="{{editProductDetails?.pcaR}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>LVDA</mat-label>
+                <mat-select name="lvda" ngModel="{{editProductDetails?.lvda}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <mat-label>Car Price</mat-label>
+                <input type="number" matInput name="price" placeholder="0" ngModel="{{editProductDetails?.price}}">
+                <span matSuffix>$&nbsp;</span>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Parking Sensors</mat-label>
+                <mat-select name="parkingSensors" ngModel="{{editProductDetails?.parkingSensors}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                  <mat-option value="Yes(Front)">"Yes(In Front)"</mat-option>
+                  <mat-option value="Yes(Back)">"Yes(Behind)"</mat-option>
+                  <mat-option value="Yes(Front/Back)">"Yes(Front/Back)"</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <mat-label>Audio Sistem</mat-label>
+                <input type="text" matInput name="audioSist" placeholder="Enter Audio Sistem" ngModel="{{editProductDetails?.audioSist}}">
+                <mat-icon matSuffix>audiotrack</mat-icon>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Additional Trunk Space</mat-label>
+                <mat-select name="additionalTrunkSpace"  ngModel="{{editProductDetails?.additionalTrunkSpace}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <mat-label>Car Img:</mat-label>
+                <input type="text" matInput placeholder="Insert a Image" name="prodImg" ngModel="{{editProductDetails?.prodImg}}">
+                <mat-icon matSuffix>perm_media</mat-icon>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Trunk Vol:</mat-label>
+                <input type="number" matInput placeholder="
+          Enter trunk volume(Liters)" name="trunkVol" ngModel="{{editProductDetails?.trunkVol}}">
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <mat-label>Usb Charging:</mat-label>
+                <input type="text" matInput placeholder="Insert Usb Charging" name="usbCharging" ngModel="{{editProductDetails?.usbCharging}}">
+                <mat-icon matSuffix>usb</mat-icon>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Central Display:</mat-label>
+                <input type="text" matInput placeholder="
+          Enter Central Display" name="centralDisplay" ngModel="{{editProductDetails?.centralDisplay}}">
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <mat-label>Wi-fi Charging:</mat-label>
+                <input type="text" matInput placeholder="Insert Wi-fi Charging" name="wifiCharging" ngModel="{{editProductDetails?.wifiCharging}}">
+                <mat-icon matSuffix>battery_charging_full</mat-icon>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>ISLA:</mat-label>
+                <mat-select name="isla" ngModel="{{editProductDetails?.isla}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <table class="example-full-width" cellspacing="0">
+          <tr>
+            <td><mat-form-field appearance="fill" floatLabel="always" class="example-full-width">
+                <input type="text" matInput placeholder="Insert eCall Sistem" name="eCallSistem" ngModel="{{editProductDetails?.eCallSistem}}">
+                <mat-icon matSuffix>phone_in_talk</mat-icon>
+              </mat-form-field></td>
+            <td><mat-form-field appearance="fill" class="example-full-width">
+                <mat-label>Auto Pilot:</mat-label>
+                <mat-select name="autoPilot" ngModel="{{editProductDetails?.autoPilot}}">
+                  <mat-option value="Yes">Yes</mat-option>
+                  <mat-option value="No">No</mat-option>
+                </mat-select>
+              </mat-form-field></td>
+          </tr>
+        </table>
+        <p>
+          <mat-form-field appearance="fill" class="example-full-width">
+            <mat-label>Car Description</mat-label>
+            <textarea matInput name="description" ngModel="{{editProductDetails?.description}}"
+              placeholder="Enter Car Description"></textarea>
+          </mat-form-field>
+        </p>
+      </form>
+    </div>
+  </div>
+  <div mat-dialog-actions class="dialog-action-btn">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button class="update" mat-button cdkFocusInitial (click)="updateProduct(editForm.value)">Save Changes</button>
+  </div>
+
+</div>

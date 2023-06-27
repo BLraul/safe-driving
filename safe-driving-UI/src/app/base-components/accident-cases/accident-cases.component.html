@@ -1,0 +1,14 @@
+<app-coverage-maps
+[casesMarkers]="currentMapsMarkers$ | async"
+[newMarkerStatusValue]="currentContainerSelected"
+[forbiddenStatusChange]="currentCasesView"
+[caseMarkersColor]="markersColor"
+[isCaseDetailsMode]="false"
+(openCaseDetails)="openCrashDetails($event)"
+(updateMultipleMarkersStatus)="updateMultipleMarkersStatus($event)"
+(updateSingleMarkersStatus)="updateSingleMarkersStatus($event)"
+></app-coverage-maps>
+<app-accident-cases-menu>
+    (containerSelectedEmitter)="onContainerSelection($event)"
+    (preselectionViewEmitter)="onPreselectionViewChange($event)"
+</app-accident-cases-menu>

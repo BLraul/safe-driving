@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root {
+    --safer-header-height: 50px;
+    --app-tile-size: 10%;
+  }
+
+  // .snackbar-update {
+  //   background: rgb(79, 112, 104) !important;
+  // }
+  // .snackbar-delete {
+  //   // background: rgb(169,171,175);
+  //   background: #ff4d4d !important;
+  // }
+  // .snackbar-add {
+  //   background: rgb(0, 140, 186) !important;
+  // }
+  
+  // .snackbar-create-appointment{
+  //   background: rgb(79, 112, 104) !important;
+  // }
+
+  .snackbar-create {
+    --mdc-snackbar-container-color: rgb(79, 112, 104);
+  }
+
+    .snackbar-add {
+      --mdc-snackbar-container-color: rgb(0, 140, 186) ;
+  }
+
+    .snackbar-delete {
+    // background: rgb(169,171,175);
+    --mdc-snackbar-container-color: #ff4d4d ;
+  }
+
+    .snackbar-update {
+      --mdc-snackbar-container-color: rgb(79, 112, 104) ;
+  }
+
